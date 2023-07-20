@@ -15,7 +15,7 @@ let package = Package(
             name: "RealReachability",
             dependencies: [],
             path: "RealReachability/",
-            exclude: ["Info.plist"]
+            exclude: ["Info.plist","README.md"]
         )
     ]
 )
