@@ -16,7 +16,7 @@ let package = Package(
             dependencies: [],
             path: "RealReachability",
             exclude: ["Info.plist","README.md"],
-            publicHeadersPath: "RealReachability.h"
+            publicHeadersPath: ""
         ),
     ],
   ] as [[Target]]).flatMap { $0 }
